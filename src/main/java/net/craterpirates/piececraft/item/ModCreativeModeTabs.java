@@ -25,7 +25,6 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_SEASTONE.get());
                         pOutput.accept(ModItems.SEASTONE_INGOT.get());
 
-                        pOutput.accept(ModBlocks.ADAM_WOOD.get());
                         pOutput.accept(ModBlocks.SEASTONE_ORE.get());
                     })
                     .build());

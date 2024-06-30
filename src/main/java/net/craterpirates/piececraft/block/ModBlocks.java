@@ -21,9 +21,6 @@ public class ModBlocks {
 
     //New Blocks
 
-    public static final RegistryObject<Block> ADAM_WOOD = registerBlock("adam_wood",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.LODESTONE)));
-
     public static final RegistryObject<Block> SEASTONE_ORE = registerBlock("seastone_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
