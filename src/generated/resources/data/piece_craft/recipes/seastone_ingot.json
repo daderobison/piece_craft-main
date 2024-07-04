@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "piece_craft:seastone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "piece_craft:seastone_ingot"
+  }
+}

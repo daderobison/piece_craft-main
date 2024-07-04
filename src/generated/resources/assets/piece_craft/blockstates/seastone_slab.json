@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "piece_craft:block/seastone_slab"
+    },
+    "type=double": {
+      "model": "piece_craft:block/seastone_block"
+    },
+    "type=top": {
+      "model": "piece_craft:block/seastone_slab_top"
+    }
+  }
+}

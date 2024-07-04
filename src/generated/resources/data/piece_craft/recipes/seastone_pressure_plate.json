@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "piece_craft:seastone_ingot"
+    }
+  },
+  "pattern": [
+    "II"
+  ],
+  "result": {
+    "item": "piece_craft:seastone_pressure_plate"
+  },
+  "show_notification": true
+}

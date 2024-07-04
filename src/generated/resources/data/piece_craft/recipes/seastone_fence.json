@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "piece_craft:seastone_ingot"
+    },
+    "R": {
+      "item": "piece_craft:seastone_rod"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "IRI"
+  ],
+  "result": {
+    "count": 3,
+    "item": "piece_craft:seastone_fence"
+  },
+  "show_notification": true
+}

@@ -1,9 +1,22 @@
 {
   "creativetab.main_items": "Piece Craft Main Items",
 
-  "item.piece_craft.sapphire": "Sapphire Ingot???",
   "item.piece_craft.raw_seastone": "Raw Seastone",
-  "item.piece_craft.seastone_ingot": "Seatone Ingot",
+  "item.piece_craft.seastone_ingot": "Seastone Ingot",
+  "item.piece_craft.meat": "MEEEEAAAAT",
+  "item.piece_craft.flame_dial": "Flame Dial",
+  "item.piece_craft.seastone_rod": "Seastone Rod",
 
-  "block.piece_craft.seastone_ore": "Seastone Ore"
+  "block.piece_craft.seastone_ore": "Seastone Ore",
+  "block.piece_craft.deepslate_seastone_ore": "Deepslate Seastone Ore",
+  "block.piece_craft.seastone_block": "Block of Seastone",
+  "block.piece_craft.seastone_stairs": "Seastone Stairs",
+  "block.piece_craft.seastone_slab": "Seastone Slab",
+  "block.piece_craft.seastone_button": "Seastone Button",
+  "block.piece_craft.seastone_pressure_plate": "Seastone Pressure Plate",
+  "block.piece_craft.seastone_fence": "Seastone Fence",
+  "block.piece_craft.seastone_fence_gate": "Seastone Fence Gate",
+  "block.piece_craft.seastone_wall": "Seastone Wall",
+  "block.piece_craft.seastone_door": "Seastone Door",
+  "block.piece_craft.seastone_trapdoor": "Seastone Trapdoor"
 }

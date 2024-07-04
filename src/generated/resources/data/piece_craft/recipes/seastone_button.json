@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "piece_craft:seastone_ingot"
+    }
+  ],
+  "result": {
+    "item": "piece_craft:seastone_button"
+  }
+}

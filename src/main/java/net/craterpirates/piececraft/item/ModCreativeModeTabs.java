@@ -17,15 +17,30 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> MAIN_ITEMS_TAB = CREATIVE_MODE_TABS.register("main_items_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.SEASTONE_INGOT.get()))
                     .title(Component.translatable("creativetab.main_items"))
                     .displayItems((pParameters, pOutput) -> {
 
-                        pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SEASTONE.get());
                         pOutput.accept(ModItems.SEASTONE_INGOT.get());
+                        pOutput.accept(ModItems.SEASTONE_ROD.get());
+
+                        pOutput.accept(ModItems.FLAME_DIAL.get());
 
                         pOutput.accept(ModBlocks.SEASTONE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
+                        pOutput.accept(ModBlocks.SEASTONE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SEASTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SEASTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.SEASTONE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SEASTONE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SEASTONE_FENCE.get());
+                        pOutput.accept(ModBlocks.SEASTONE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SEASTONE_WALL.get());
+                        pOutput.accept(ModBlocks.SEASTONE_DOOR.get());
+                        pOutput.accept(ModBlocks.SEASTONE_TRAPDOOR.get());
+
+                        pOutput.accept(ModItems.MEAT.get());
                     })
                     .build());
 

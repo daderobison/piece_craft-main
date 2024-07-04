@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "seastone",
+  "ingredient": {
+    "item": "piece_craft:raw_seastone"
+  },
+  "result": "piece_craft:seastone_ingot"
+}

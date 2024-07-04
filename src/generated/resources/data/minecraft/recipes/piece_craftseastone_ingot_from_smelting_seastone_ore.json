@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "seastone",
+  "ingredient": {
+    "item": "piece_craft:seastone_ore"
+  },
+  "result": "piece_craft:seastone_ingot"
+}

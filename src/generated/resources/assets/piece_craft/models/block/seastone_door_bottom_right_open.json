@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "piece_craft:block/seastone_door_bottom",
+    "top": "piece_craft:block/seastone_door_top"
+  }
+}

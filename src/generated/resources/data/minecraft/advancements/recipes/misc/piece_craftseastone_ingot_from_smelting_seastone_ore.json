@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_seastone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "piece_craft:seastone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:piece_craftseastone_ingot_from_smelting_seastone_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_seastone_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:piece_craftseastone_ingot_from_smelting_seastone_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
