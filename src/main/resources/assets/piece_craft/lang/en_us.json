@@ -1,8 +1,14 @@
 {
-  "creativetab.main_items": "Piece Craft Main Items",
+  "creativetab.main_items": "Piece Craft Building Blocks",
+  "creatovetab.devil_fruit": "Devil Fruits",
 
   "item.piece_craft.raw_seastone": "Raw Seastone",
   "item.piece_craft.seastone_ingot": "Seastone Ingot",
+  "item.piece_craft.seastone_sword": "Seastone Sword",
+  "item.piece_craft.seastone_pickaxe": "Seastone Pickaxe",
+  "item.piece_craft.seastone_axe": "Seastone Axe",
+  "item.piece_craft.seastone_shovel": "Seastone Shovel",
+  "item.piece_craft.seastone_hoe": "Seastone Hoe",
   "item.piece_craft.meat": "MEEEEAAAAT",
   "item.piece_craft.flame_dial": "Flame Dial",
   "item.piece_craft.seastone_rod": "Seastone Rod",
@@ -18,5 +24,7 @@
   "block.piece_craft.seastone_fence_gate": "Seastone Fence Gate",
   "block.piece_craft.seastone_wall": "Seastone Wall",
   "block.piece_craft.seastone_door": "Seastone Door",
-  "block.piece_craft.seastone_trapdoor": "Seastone Trapdoor"
+  "block.piece_craft.seastone_trapdoor": "Seastone Trapdoor",
+
+  "item.piece_craft.sube_sube_no_mi": "Sube Sube no Mi"
 }

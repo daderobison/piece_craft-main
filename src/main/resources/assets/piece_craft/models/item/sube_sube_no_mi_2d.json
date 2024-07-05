@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "piece_craft:item/sube_sube_no_mi"
+  }
+}

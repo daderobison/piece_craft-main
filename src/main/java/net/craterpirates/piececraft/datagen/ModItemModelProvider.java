@@ -22,9 +22,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.RAW_SEASTONE);
         simpleItem(ModItems.SEASTONE_INGOT);
+        handheldItem(ModItems.SEASTONE_SWORD);
+        handheldItem(ModItems.SEASTONE_PICKAXE);
+        handheldItem(ModItems.SEASTONE_AXE);
+        handheldItem(ModItems.SEASTONE_SHOVEL);
+        handheldItem(ModItems.SEASTONE_HOE);
         simpleItem(ModItems.SEASTONE_ROD);
         simpleItem(ModItems.FLAME_DIAL);
         simpleItem(ModItems.MEAT);
+
 
         simpleBlockItem(ModBlocks.SEASTONE_DOOR);
 
@@ -75,5 +81,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(PieceCraft.MOD_ID, "item/"+item.getId().getPath()));
     }
 
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item){
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer 0",
+                new ResourceLocation(PieceCraft.MOD_ID, "item/"+item.getId().getPath()));
+    }
 
 }

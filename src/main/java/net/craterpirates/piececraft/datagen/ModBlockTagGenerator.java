@@ -2,6 +2,7 @@ package net.craterpirates.piececraft.datagen;
 
 import net.craterpirates.piececraft.PieceCraft;
 import net.craterpirates.piececraft.block.ModBlocks;
+import net.craterpirates.piececraft.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -25,7 +26,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.SEASTONE_BLOCK.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.SEASTONE_BLOCK.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
+                .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
+
+        this.tag(ModTags.Blocks.NEEDS_SEASTONE_TOOL)
+                .add(ModBlocks.SEASTONE_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SEASTONE_FENCE.get());

@@ -1,6 +1,7 @@
-// 1.20.1	2024-07-03T03:59:52.3790101	Tags for minecraft:block mod id piece_craft
+// 1.20.1	2024-07-05T05:26:37.3734784	Tags for minecraft:block mod id piece_craft
 e870081dfa3b6c3a9021b60b4eda1ebd11901fe3 data/minecraft/tags/blocks/fences.json
 89c45a0a83c95249bfbf8b8f1d52a2e3c803c459 data/minecraft/tags/blocks/fence_gates.json
 eaeb5efd47c124ef7c8619d6feb22c963a41d354 data/minecraft/tags/blocks/mineable/pickaxe.json
-eaeb5efd47c124ef7c8619d6feb22c963a41d354 data/minecraft/tags/blocks/needs_diamond_tool.json
+c0253d3d2644bfb31e74a76ff2eca1834793bbe0 data/minecraft/tags/blocks/needs_diamond_tool.json
 4d0d3a718b691ef28c85b4d8f5e883782566d209 data/minecraft/tags/blocks/walls.json
+ee4f34fbecf6f203ec7cc2b74e373a58c6bd3f2f data/piece_craft/tags/blocks/needs_seastone_tool.json

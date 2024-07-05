@@ -1,6 +1,8 @@
 package net.craterpirates.piececraft.datagen;
 
 import net.craterpirates.piececraft.PieceCraft;
+import net.craterpirates.piececraft.item.ModItems;
+import net.craterpirates.piececraft.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -20,6 +22,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        this.tag(ModTags.Items.IS_DEVIL_FRUIT)
+                .add(ModItems.SUBE_SUBE_NO_MI.get());
 
     }
 }

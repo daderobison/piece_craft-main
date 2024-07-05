@@ -23,6 +23,11 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.RAW_SEASTONE.get());
                         pOutput.accept(ModItems.SEASTONE_INGOT.get());
+                        pOutput.accept(ModItems.SEASTONE_SWORD.get());
+                        pOutput.accept(ModItems.SEASTONE_PICKAXE.get());
+                        pOutput.accept(ModItems.SEASTONE_AXE.get());
+                        pOutput.accept(ModItems.SEASTONE_SHOVEL.get());
+                        pOutput.accept(ModItems.SEASTONE_HOE.get());
                         pOutput.accept(ModItems.SEASTONE_ROD.get());
 
                         pOutput.accept(ModItems.FLAME_DIAL.get());
@@ -43,6 +48,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MEAT.get());
                     })
                     .build());
+
+    public static final RegistryObject<CreativeModeTab> DEVIL_FRUIT_TAB = CREATIVE_MODE_TABS.register("devil_fruit_tab",
+            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SUBE_SUBE_NO_MI.get()))
+                .title(Component.translatable("creativetab.devil_fruit"))
+                .displayItems((pParameters, pOutput) -> {
+                    pOutput.accept(ModItems.SUBE_SUBE_NO_MI.get());
+                })
+            .build());
 
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
