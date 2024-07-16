@@ -1,0 +1,14 @@
+{
+  "type": "piece_craft:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:sand",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.05,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "piece_craft:flame_dial"
+}

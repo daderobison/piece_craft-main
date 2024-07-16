@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.craterpirates.piececraft.block.ModBlocks;
 import net.craterpirates.piececraft.item.ModCreativeModeTabs;
 import net.craterpirates.piececraft.item.ModItems;
+import net.craterpirates.piececraft.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,7 +36,7 @@ public class PieceCraft
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

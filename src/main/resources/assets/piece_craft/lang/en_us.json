@@ -1,6 +1,10 @@
 {
   "creativetab.main_items": "Piece Craft Building Blocks",
-  "creatovetab.devil_fruit": "Devil Fruits",
+  "creativetab.food_tab": "Piece Craft Foods",
+  "creativetab.combat_tab": "Piece Craft Combat",
+  "creativetab.tools_tab": "Piece Craft Tools",
+  "creativetab.misc_tab": "Piece Craft Misc.",
+  "creativetab.devil_fruit": "Devil Fruits",
 
   "item.piece_craft.raw_seastone": "Raw Seastone",
   "item.piece_craft.seastone_ingot": "Seastone Ingot",
@@ -9,9 +13,15 @@
   "item.piece_craft.seastone_axe": "Seastone Axe",
   "item.piece_craft.seastone_shovel": "Seastone Shovel",
   "item.piece_craft.seastone_hoe": "Seastone Hoe",
+  "item.piece_craft.seastone_helmet": "Seastone Helmet",
+  "item.piece_craft.seastone_chestplate": "Seastone Chestplate",
+  "item.piece_craft.seastone_leggings": "Seastone Leggings",
+  "item.piece_craft.seastone_boots": "Seastone Boots",
   "item.piece_craft.meat": "MEEEEAAAAT",
   "item.piece_craft.flame_dial": "Flame Dial",
   "item.piece_craft.seastone_rod": "Seastone Rod",
+
+  "item.piece_craft.oak_polearm": "Oak Polearm",
 
   "block.piece_craft.seastone_ore": "Seastone Ore",
   "block.piece_craft.deepslate_seastone_ore": "Deepslate Seastone Ore",

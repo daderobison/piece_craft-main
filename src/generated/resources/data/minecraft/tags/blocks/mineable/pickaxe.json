@@ -2,6 +2,15 @@
   "values": [
     "piece_craft:seastone_ore",
     "piece_craft:seastone_block",
-    "piece_craft:deepslate_seastone_ore"
+    "piece_craft:deepslate_seastone_ore",
+    "piece_craft:seastone_fence",
+    "piece_craft:seastone_fence_gate",
+    "piece_craft:seastone_trapdoor",
+    "piece_craft:seastone_wall",
+    "piece_craft:seastone_pressure_plate",
+    "piece_craft:seastone_slab",
+    "piece_craft:seastone_button",
+    "piece_craft:seastone_stairs",
+    "piece_craft:seastone_door"
   ]
 }

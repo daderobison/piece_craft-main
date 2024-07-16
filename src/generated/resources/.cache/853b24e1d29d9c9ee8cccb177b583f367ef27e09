@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-12T16:07:31.5059716	Global Loot Modifiers : piece_craft
+5d6f8ccd249a9592eb0e56682c028a1d26cd1441 data/forge/loot_modifiers/global_loot_modifiers.json
+5b27ccf1e0d8fa9dbbbaf8fe99ea5fe9f12188db data/piece_craft/loot_modifiers/flame_dial_from_sand.json
+1022036cff523c78cb885cba2c4c5f0cfb10d3cc data/piece_craft/loot_modifiers/seastone_ingot_from_stronghold.json

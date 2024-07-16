@@ -23,13 +23,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.SEASTONE_BLOCK.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
+                .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.SEASTONE_BLOCK.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get(), ModBlocks.SEASTONE_FENCE.get(), ModBlocks.SEASTONE_FENCE_GATE.get(),
+                        ModBlocks.SEASTONE_TRAPDOOR.get(), ModBlocks.SEASTONE_WALL.get(), ModBlocks.SEASTONE_PRESSURE_PLATE.get(),
+                        ModBlocks.SEASTONE_SLAB.get(), ModBlocks.SEASTONE_BUTTON.get(), ModBlocks.SEASTONE_STAIRS.get(), ModBlocks.SEASTONE_DOOR.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SEASTONE_ORE.get(), ModBlocks.DEEPSLATE_SEASTONE_ORE.get());
 
         this.tag(ModTags.Blocks.NEEDS_SEASTONE_TOOL)
-                .add(ModBlocks.SEASTONE_BLOCK.get());
+                .add(ModBlocks.SEASTONE_BLOCK.get(), ModBlocks.SEASTONE_FENCE.get(), ModBlocks.SEASTONE_FENCE_GATE.get(),
+                        ModBlocks.SEASTONE_TRAPDOOR.get(), ModBlocks.SEASTONE_WALL.get(), ModBlocks.SEASTONE_PRESSURE_PLATE.get(),
+                        ModBlocks.SEASTONE_SLAB.get(), ModBlocks.SEASTONE_BUTTON.get(), ModBlocks.SEASTONE_STAIRS.get(), ModBlocks.SEASTONE_DOOR.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SEASTONE_FENCE.get());

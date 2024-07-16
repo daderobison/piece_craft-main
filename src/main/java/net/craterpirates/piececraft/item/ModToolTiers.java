@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier SEASTONE = TierSortingRegistry.registerTier(
-            new ForgeTier(4, 1800, 8f, 8f, 45,
+            new ForgeTier(4, 1800, 6f, 5f, 45,
                     ModTags.Blocks.NEEDS_SEASTONE_TOOL, () -> Ingredient.of(ModItems.SEASTONE_INGOT.get())),
             new ResourceLocation(PieceCraft.MOD_ID, "seastone"), List.of(Tiers.DIAMOND), List.of());
 }

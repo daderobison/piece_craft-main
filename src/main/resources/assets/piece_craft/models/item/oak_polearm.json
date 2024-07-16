@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "piece_craft:item/oak_polearm_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "piece_craft:item/oak_polearm_2d"
+    },
+    "ground": {
+      "parent": "piece_craft:item/oak_polearm_3d"
+    },
+    "fixed": {
+      "parent": "piece_craft:item/oak_polearm_3d"
+    }
+  }
+}

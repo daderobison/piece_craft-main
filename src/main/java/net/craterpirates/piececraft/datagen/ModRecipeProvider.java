@@ -51,6 +51,85 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SEASTONE_SWORD.get())
+                .pattern("I")
+                .pattern("I")
+                .pattern("R")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .define('R', ModItems.SEASTONE_ROD.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SEASTONE_PICKAXE.get())
+                .pattern("III")
+                .pattern(" R ")
+                .pattern(" R ")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .define('R', ModItems.SEASTONE_ROD.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SEASTONE_AXE.get())
+                .pattern("II")
+                .pattern("IR")
+                .pattern(" R")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .define('R', ModItems.SEASTONE_ROD.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SEASTONE_SHOVEL.get())
+                .pattern("I")
+                .pattern("R")
+                .pattern("R")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .define('R', ModItems.SEASTONE_ROD.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SEASTONE_HOE.get())
+                .pattern("II")
+                .pattern(" R")
+                .pattern(" R")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .define('R', ModItems.SEASTONE_ROD.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SEASTONE_HELMET.get())
+                .pattern("III")
+                .pattern("I I")
+                .define('I', ModItems.SEASTONE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SEASTONE_CHESTPLATE.get())
+                        .pattern("I I")
+                        .pattern("III")
+                        .pattern("III")
+                        .define('I', ModItems.SEASTONE_INGOT.get())
+                        .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                        .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SEASTONE_LEGGINGS.get())
+                        .pattern("III")
+                        .pattern("I I")
+                        .pattern("I I")
+                        .define('I', ModItems.SEASTONE_INGOT.get())
+                        .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                        .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SEASTONE_BOOTS.get())
+                        .pattern("I I")
+                        .pattern("I I")
+                        .define('I', ModItems.SEASTONE_INGOT.get())
+                        .unlockedBy(getHasName(ModItems.SEASTONE_INGOT.get()), has(ModItems.SEASTONE_INGOT.get()))
+                        .save(pWriter);
+
+
+
+
+
         ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.SEASTONE_DOOR.get(), 3)
                 .pattern("II")
                 .pattern("II")

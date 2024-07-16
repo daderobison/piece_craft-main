@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "piece_craft:seastone_ingot"
+    },
+    "R": {
+      "item": "piece_craft:seastone_rod"
+    }
+  },
+  "pattern": [
+    "I",
+    "R",
+    "R"
+  ],
+  "result": {
+    "item": "piece_craft:seastone_shovel"
+  },
+  "show_notification": true
+}

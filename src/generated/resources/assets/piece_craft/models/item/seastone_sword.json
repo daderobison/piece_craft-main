@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer 0": "piece_craft:item/seastone_sword"
+    "layer0": "piece_craft:item/seastone_sword"
   }
 }
