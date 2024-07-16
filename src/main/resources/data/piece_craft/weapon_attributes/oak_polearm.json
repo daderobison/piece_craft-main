@@ -1,0 +1,41 @@
+{
+  "attributes": {
+    "attack_range": 3,
+    "two_handed": true,
+    "pose": "piece_craft:pose_polearm",
+    "category": "battlestaff",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.9,
+        "angle": 180,
+        "upswing": 0.5,
+        "animation": "piece_craft:polearm_right_strike",
+        "swing_sound": {
+          "id": "bettercombat:staff_slash"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.9,
+        "angle": 180,
+        "upswing": 0.5,
+        "animation": "piece_craft:polearm_left_strike"
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.3,
+        "angle": 180,
+        "upswing": 0.25,
+        "animation": "piece_craft:polearm_fast_right"
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.3,
+        "angle": 180,
+        "upswing": 0.25,
+        "animation": "piece_craft:polearm_fast_left"
+      }
+    ]
+  }
+}
